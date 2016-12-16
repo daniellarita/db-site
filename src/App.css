@@ -3,11 +3,6 @@
   padding:30px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -15,15 +10,49 @@
   color: white;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App-header h2{
+  margin-bottom: 70px;
 }
-
+ /* ABOUT */
 .my-picture{
   height:300px;
   width:300px;
   padding:20px;
 }
+
+p{
+  text-align: left;
+  padding:10px;
+  margin:10px;
+}
+
+ /* NAV BAR */
+.nav-link{
+  width:29%;
+  margin:10px;
+  float:left;
+  align-content: center;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: white;
+  font-weight:bold;
+}
+
+.nav-link a:focus{
+  text-decoration: underline;
+}
+
+.nav-link a:hover{
+  text-decoration: underline;
+}
+
+ /* CONTACT */
+ .icons{
+   padding:10px;
+ }
+
+
 
 

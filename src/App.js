@@ -3,7 +3,7 @@ import picture from '../public/Danni-Nicaragua.png';
 import './App.css';
 import initialState from './initialState';
 import Resume from './components/Resume.js';
-import Sidebar from './components/Sidebar.js';
+import NavBar from './components/NavBar.js';
 import Contact from './components/Contact.js';
 
 class App extends Component {
@@ -17,11 +17,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={picture} className="App-logo" alt="logo" />
           <h2>Danni Baxter</h2>
-        </div>
-        <div className="col-xs-2">
-          <Sidebar isActive={ this.props.router.isActive }/>
+          <NavBar />
         </div>
         <div className="col-xs-10">
         { this.props.children &&
