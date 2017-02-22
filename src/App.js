@@ -4,6 +4,7 @@ import './App.css';
 import initialState from './initialState';
 import Resume from './components/Resume.js';
 import NavBar from './components/NavBar.js';
+import Footer from './components/Footer.js';
 import Contact from './components/Contact.js';
 
 class App extends Component {
@@ -11,20 +12,18 @@ class App extends Component {
     super();
     this.state = initialState;
   }
-  
+
   render() {
-    console.log(this.props.children)
     return (
       <div className="App">
-        <div className="App-header">
-          <h2>Danni Baxter</h2>
-          <NavBar />
-        </div>
+        <h2>Danni Baxter</h2>
+        <NavBar />
         <div className="col-xs-10">
         { this.props.children &&
           React.cloneElement(this.props.children)
         }
         </div>
+        <Footer />
       </div>
     );
   }
