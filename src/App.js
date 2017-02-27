@@ -16,14 +16,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>Danni Baxter</h2>
+        <h1>Danni Baxter</h1>
         <NavBar />
-        <div className="col-xs-10">
+        <div className="col-xs-12">
         { this.props.children &&
           React.cloneElement(this.props.children)
         }
-        </div>
         <Footer />
+        </div>
       </div>
     );
   }
