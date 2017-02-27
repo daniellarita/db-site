@@ -8,6 +8,7 @@ const Contact = (props) => {
       <SocialIcon url="https://www.facebook.com/danni.baxter.16" />
       <SocialIcon url="https://www.linkedin.com/in/daniellabaxter" />
       <SocialIcon url="https://medium.com/@dannibaxter" />
+      <SocialIcon url="https://github.com/dannibaxter" />
     </div>
   );
 };
