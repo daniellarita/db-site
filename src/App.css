@@ -33,7 +33,7 @@ p{
 }
 
 .nav-link{
-  width:22%;
+  width:29%;
   margin:10px;
   float:left;
   align-content: center;
@@ -65,4 +65,10 @@ p{
 /* RESUME */
 .resume{
   padding:50px;
+}
+
+/* MUSIC */
+
+.music-button{
+  margin: 10px;
 }

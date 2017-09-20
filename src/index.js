@@ -14,7 +14,6 @@ ReactDOM.render(
   		<IndexRedirect to="/about"/>
   		<Route path="/resume" component={ Resume } />
   		<Route path="/about" component={ About } />
-      <Route path="/my-favorite-songs" component={ Music } />
   		<Route path="/contact" component={ Contact } />
   	</Route>
   </Router>,
