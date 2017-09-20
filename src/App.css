@@ -6,6 +6,7 @@
 .App-header h2{
   margin-bottom: 70px;
 }
+
  /* ABOUT */
 
  .about{
@@ -64,4 +65,10 @@ p{
 /* RESUME */
 .resume{
   padding:50px;
+}
+
+/* MUSIC */
+
+.music-button{
+  margin: 10px;
 }
