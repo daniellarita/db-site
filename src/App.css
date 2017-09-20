@@ -6,6 +6,7 @@
 .App-header h2{
   margin-bottom: 70px;
 }
+
  /* ABOUT */
 
  .about{
@@ -32,7 +33,7 @@ p{
 }
 
 .nav-link{
-  width:29%;
+  width:22%;
   margin:10px;
   float:left;
   align-content: center;
