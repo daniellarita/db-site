@@ -5,7 +5,7 @@ const Contact = (props) => {
   return (
     <div>
       <div className="email-link">
-        <a href="mailto:drbaxter821@gmail.com?Subject=Hello!">Email Me!
+        <a href="mailto:drbaxter821@gmail.com?Subject=Hello!">Email me!
         </a>
       </div>
       <div className="icons">

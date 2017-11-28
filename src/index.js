@@ -11,7 +11,6 @@ ReactDOM.render(
   <Router history={hashHistory}>
   	<Route path="/" component={App}>
   		<IndexRedirect to="/about"/>
-  		<Route path="/resume" component={ Resume } />
   		<Route path="/about" component={ About } />
   		<Route path="/contact" component={ Contact } />
   	</Route>
