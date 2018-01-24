@@ -29,27 +29,24 @@ class Music extends Component {
   }
 
   handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("button clikced");
-    console.log("tracks length",this.state.tracks.length);
+    event.preventDefault()
     this.setState({
       randomIndex: Math.floor(Math.random()*this.state.tracks.length)
     })
     this.setState({
       uri: this.state.tracks[this.state.randomIndex]
     })
-    console.log(this.state.randomIndex, "randomIndex")
-
   }
 
   render() {
     return (
-      <div className="music">
-        <div className="music-button">
+      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
+        <div>
           <button
             onClick={ this.handleSubmit }
             type="button"
             className="btn btn-default"
+            style={{margin: '20px'}}
           >
             Click here to see one of my favorite songs!
           </button>
@@ -58,11 +55,13 @@ class Music extends Component {
           src={ `https://open.spotify.com/embed?uri=${this.state.uri}` } width="300"
           height="380"
           frameBorder="0"
-          allowTransparency="true">
+          allowTransparency="true"
+          style={{margin: '20px', display: 'block'}}
+          >
         </iframe>
       </div>
     );
   }
 }
 
-export default Music;
+export default Music

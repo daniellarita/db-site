@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = (props) => {
   return (
-    <div>
-      {/*}<p>COPYRIGHT 2017 DANNI BAXTER</p>*/}
+    <div style={{display: 'flex', alignItems: 'flex-end'}}>
+      <p style={{}}>COPYRIGHT 2018 DANNI BAXTER</p>
     </div>
   );
 };
