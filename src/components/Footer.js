@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = (props) => {
   return (
-    <div>
-      {/*}<p>COPYRIGHT 2017 DANNI BAXTER</p>*/}
+    <div className="footer">
+      <p>COPYRIGHT 2017 DANNI BAXTER</p>
     </div>
   );
 };
