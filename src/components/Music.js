@@ -43,22 +43,27 @@ class Music extends Component {
   }
 
   render() {
+    const iFrameWidth = 300
+    const iFrameHeight = 380
     return (
-      <div className="music">
+      <div className="music-container">
         <div className="music-button">
           <button
             onClick={ this.handleSubmit }
             type="button"
             className="btn btn-default"
+            style={{margin: '10px'}}
           >
-            Click here to see one of my favorite songs!
+            These are my favorite songs :)
           </button>
         </div>
         <iframe
-          src={ `https://open.spotify.com/embed?uri=${this.state.uri}` } width="300"
-          height="380"
+          src={ `https://open.spotify.com/embed?uri=${this.state.uri}` }
+          width="200"
+          height="200"
           frameBorder="0"
-          allowTransparency="true">
+          allowTransparency="true"
+          style={{margin: '20px'}}>
         </iframe>
       </div>
     );
