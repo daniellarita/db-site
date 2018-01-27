@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Resume from './components/Resume';
 import About from './components/About';
-import Contact from './components/Contact';
+import Travel from './components/Travel';
 import './index.css';
 import { Router, Route, hashHistory, IndexRedirect } from 'react-router';
 
@@ -12,7 +12,7 @@ ReactDOM.render(
   	<Route path="/" component={App}>
   		<IndexRedirect to="/about"/>
   		<Route path="/about" component={ About } />
-  		<Route path="/contact" component={ Contact } />
+  		<Route path="/travel" component={ Travel } />
   	</Route>
   </Router>,
   document.getElementById('root')

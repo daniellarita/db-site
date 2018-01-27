@@ -51,23 +51,6 @@
   align-items: center;
 }
 
-/* CONTACT CONTAINER */
-
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icon {
-  margin: 10px;
-}
-
-.email-link {
-  margin: 10px;
-}
-
 /* FOOTER */
 
 .footer {
@@ -76,4 +59,20 @@
   bottom: 0;
   left: 0;
   text-align: center;
+}
+
+.footer-items-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+.email-me {
+  /*margin: 10px;*/
+  color: black;
 }
